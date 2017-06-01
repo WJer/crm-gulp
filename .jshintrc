@@ -1,0 +1,33 @@
+{
+  "browser": true,
+  "eqnull": true,
+  "undef": true,
+  "elision": true, // 允许数组省略元素
+  "laxbreak": true, //不检查换行
+  "scripturl": true, //容忍javascript:void(0)
+  "devel": true, // 允许alert,console
+  "loopfunc": true, //允许循环内写闭包函数
+  "debug": true,
+  "globals": {
+      "_": true,
+      "$": true,
+      "jQuery": true,
+      "Backbone": true,
+      "seajs": true,
+      "define": true,
+      "AMap": true,//高德地图
+      "FS": true,
+      "CRM": true,
+      "Zclip": true,
+      "scheduler": true,
+      "dhtmlXScheduler": true
+  },
+  "esnext": true, // 支持es6
+  "-W030": true, //忽略：一行内有多条表达式，a = b, c = d;
+  "-W018": true, //忽略：Confusing use of '!'
+  "-W084": true, //忽略：表达式内变量赋值，if(a = fn())
+  "-W069": true, //忽略：['{a}'] is better written in dot notation
+  "-W041": true, //忽略：Use '===' to compare with
+  "-W033": true, //忽略: Missing semicolon漏掉分号
+  "-W032": true  //忽略：Unnecessary semicolon 不必要的分号
+}
